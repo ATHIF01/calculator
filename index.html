@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="buttons">
+<input id="result"></input>
+<span id="clear" onclick="backSpace()">&#9003</span>
+<span onclick="displayNum('/')">/</span>
+<span onclick="displayNum('*')">*</span>
+<span onclick="displayNum(7)">7</span>
+<span onclick="displayNum(8)">8</span>
+<span onclick="displayNum(9)">9</span>
+<span onclick="displayNum('-')">-</span>
+<span onclick="displayNum(4)">4</span>
+<span onclick="displayNum(5)">5</span>
+<span onclick="displayNum(6)">6</span>
+<span id="plus" onclick="displayNum('+')">+</span>
+<span onclick="displayNum(1)">1</span>
+<span onclick="displayNum(2)">2</span>
+<span onclick="displayNum(3)">3</span>
+<span onclick="displayNum(0)">0</span>
+<span id="ac" onclick="allClear()">AC</span>
+<span onclick="displayNum('.')">.</span>
+<span id="equal" onclick="evaluateExpr()">=</span>
+        </div>
+    </div>
+</body>
+<script src="./cal.js"></script>
+</html>
